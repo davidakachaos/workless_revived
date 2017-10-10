@@ -7,7 +7,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'workless_revived'
-  s.version = '2.1.0.2'
+  s.version = '2.2.0'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 1.3.6') if s.respond_to? :required_rubygems_version=
   s.authors = ['davidakachaos']
@@ -26,12 +26,13 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('rush')
   s.add_runtime_dependency('delayed_job', ['>= 2.0.7'])
 
-  s.required_ruby_version = '>= 2.2.5'
+  s.required_ruby_version = '>= 2.2.4'
 
   s.add_development_dependency('rspec')
 
   s.post_install_message = %q{
-Workless Revived 2.1.0 introduces a backwards-incompatible change!
-Please update your Heroku config to use WORKLESS_API_KEY instead of HEROKU_API_KEY!!
+Workless Revived is no longer needed! Workless has returned!
+See: https://github.com/lostboy/workless for the latest version!
+This version will be the LAST VERSION!
 }
 end
