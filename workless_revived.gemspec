@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.description = 'Extension to Delayed Job to enable workers to scale up when needed'
   s.email = 'davidakachaos@gmail.com'
 
-  s.files = Dir.glob('{rails,lib}/**/*') + %w(LICENSE README.md )
+  s.files = %w(README.md )
 
   s.homepage = 'http://github.com/davidakachaos/workless_revived'
-  s.require_paths = ['lib']
+  # s.require_paths = ['lib']
   s.summary = 'Use delayed job workers only when theyre needed on Heroku'
 
   s.add_runtime_dependency('workless', ['>= 2.2.0'])
