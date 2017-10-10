@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [![Build Status](https://secure.travis-ci.org/davidakachaos/workless_revived.png?branch=master)](http://travis-ci.org/davidakachaos/workless_revived)
 [![Gem Version](https://badge.fury.io/rb/workless_revived.png)](http://badge.fury.io/rb/workless_revived)
 [![Test Coverage](https://coveralls.io/repos/davidakachaos/workless_revived/badge.png?branch=master)](https://coveralls.io/r/davidakachaos/workless_revived)
@@ -130,3 +131,13 @@ Copyright (c) 2010 lostboy.
 Copyright (c) 2016 davidakachaos.
 
 See LICENSE for details.
+=======
+# Workless Revived is deprecated!
+This gem has been deprecated! [Workless](https://github.com/lostboy/workless) is back!
+Please adjust your Gemfiles to point to the original Workless gem, it contains all adjustments from this fork!
+
+I will start closing issues here and reffer you to the original gem. @lostboy and myself are currently maintaining the original gem.
+
+# Thanks for all the fish
+And I will see you at [our new home](https://github.com/lostboy/workless)
+>>>>>>> Stashed changes

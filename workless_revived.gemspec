@@ -7,11 +7,11 @@
 
 Gem::Specification.new do |s|
   s.name = 'workless_revived'
-  s.version = '2.2.0'
+  s.version = '2.3.0'
 
   s.required_rubygems_version = Gem::Requirement.new('>= 1.3.6') if s.respond_to? :required_rubygems_version=
   s.authors = ['davidakachaos']
-  s.date = '2017-06-30'
+  s.date = '2017-10-11'
   s.description = 'Extension to Delayed Job to enable workers to scale up when needed'
   s.email = 'davidakachaos@gmail.com'
 
@@ -21,14 +21,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.summary = 'Use delayed job workers only when theyre needed on Heroku'
 
-  s.add_runtime_dependency('rails')
-  s.add_runtime_dependency('platform-api')
-  s.add_runtime_dependency('rush')
-  s.add_runtime_dependency('delayed_job', ['>= 2.0.7'])
-
-  s.required_ruby_version = '>= 2.2.4'
-
-  s.add_development_dependency('rspec')
+  s.add_runtime_dependency('workless', ['>= 2.2.0'])
 
   s.post_install_message = %q{
 Workless Revived is no longer needed! Workless has returned!
